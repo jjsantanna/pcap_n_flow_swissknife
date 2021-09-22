@@ -18,6 +18,7 @@ The goal of this repo is to summarize a list of commands usefull to deal with pc
 
 ## How to merge .nfdump(S) into a single .csv?
 ```nfdump -R <directory_with_nfcapds> > <output_file.csv>```
+
 ```nfdump -r <nflow_file> -o extended -o csv > <output_file.csv>``` export netflow to csv
 
 ## How to convert a packet-based to a flow-based file?
