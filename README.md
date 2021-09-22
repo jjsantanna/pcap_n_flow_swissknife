@@ -9,4 +9,4 @@
 - SplitCap: https://www.netresec.com/index.ashx?page=SplitCap
 
 # How to convert from pcapng to pcap?
-editcap -F libpcap <old_file.pcapng> <new_file.pcap>
+```editcap -F libpcap <old_file.pcapng> <new_file.pcap>```
