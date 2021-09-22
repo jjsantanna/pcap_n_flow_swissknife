@@ -22,5 +22,6 @@ The goal of this repo is to summarize a list of commands usefull to deal with pc
 
 ## How to convert a packet-based to a flow-based file?
 **Read:** https://gist.github.com/jjsantanna/f2ee2f1fe23208299f4a2ca392f8b23f
+
 ```nfpcapd -r <path_to_pcap_file.pcap> -l <output_directory.netflow>``` 
 
