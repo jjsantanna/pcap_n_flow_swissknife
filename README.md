@@ -12,3 +12,6 @@
 
 # How to convert from pcapng to pcap?
 ```editcap -F libpcap <old_file.pcapng> <new_file.pcap>```
+
+# How to merge .nfdump(S) into a single .csv?
+```nfdump -R <directory_with_nfcapds> > merged_nfcapd.csv```
